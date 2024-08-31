@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0067f4cc-4e96-4c51-b63e-50e1d1b74cf8" name="Changes" comment="VideoPageController class completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/utility/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/finalproject/youtube/ui/DashBoardPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/ui/DashboardPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/finalproject/youtube/ui/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/ui/SearchPageController.java" afterDir="false" />
-    </list>
+    <list default="true" id="0067f4cc-4e96-4c51-b63e-50e1d1b74cf8" name="Changes" comment="Utility class completed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725091551429</updated>
-      <workItem from="1725091552577" duration="2923000" />
+      <workItem from="1725091552577" duration="3042000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -294,14 +290,21 @@
       <option name="project" value="LOCAL" />
       <updated>1725094287321</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Utility class completed">
+      <option name="closed" value="true" />
+      <created>1725094514191</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094514191</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="PopularChannels class completed" />
     <MESSAGE value="VideoBox class completed" />
     <MESSAGE value="YouTubeMix class completed" />
     <MESSAGE value="DatabaseManger class completed" />
@@ -326,6 +329,7 @@
     <MESSAGE value="SubPageController class completed" />
     <MESSAGE value="ThemeController class completed" />
     <MESSAGE value="VideoPageController class completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="VideoPageController class completed" />
+    <MESSAGE value="Utility class completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Utility class completed" />
   </component>
 </project>
