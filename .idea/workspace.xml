@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0067f4cc-4e96-4c51-b63e-50e1d1b74cf8" name="Changes" comment="Response interface completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-    </list>
+    <list default="true" id="0067f4cc-4e96-4c51-b63e-50e1d1b74cf8" name="Changes" comment="module-info.java completed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -70,15 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1725091551429</updated>
       <workItem from="1725091552577" duration="3042000" />
-      <workItem from="1725094612412" duration="1542000" />
-    </task>
-    <task id="LOCAL-00047" summary="EditChannel class completed">
-      <option name="closed" value="true" />
-      <created>1725095249509</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1725095249509</updated>
+      <workItem from="1725094612412" duration="1694000" />
     </task>
     <task id="LOCAL-00048" summary="EditChannelPlayList class completed">
       <option name="closed" value="true" />
@@ -464,7 +455,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725095990387</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="module-info.java completed">
+      <option name="closed" value="true" />
+      <created>1725096180205</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1725096180205</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +471,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="NotificationRes class completed" />
     <MESSAGE value="PlayListRes class completed" />
     <MESSAGE value="PlayListsVideosRes class completed" />
     <MESSAGE value="ProfileRes class completed" />
@@ -497,6 +495,7 @@
     <MESSAGE value="YouTubeMixRes class completed" />
     <MESSAGE value="Request interface completed" />
     <MESSAGE value="Response interface completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Response interface completed" />
+    <MESSAGE value="module-info.java completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="module-info.java completed" />
   </component>
 </project>

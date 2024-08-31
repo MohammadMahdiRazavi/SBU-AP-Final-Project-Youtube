@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.SVGPath?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.youtube.ui.SignUpController">
+   <children>
+      <VBox fx:id="vBox" alignment="CENTER" prefHeight="720.0" prefWidth="1280.0" spacing="10">
+         <padding>
+            <Insets bottom="20.0" left="300" right="300.0" top="35.0" />
+         </padding>
+         <children>
+            <AnchorPane prefHeight="102.0" prefWidth="126.0">
+               <children>
+                  <SVGPath content="M143.5,25.3c-1.7-6.2-6.2-10.8-12.5-12.5C119.8,10,75.8,10,75.8,10s-44,0-55.2,2.9c-6.2,1.7-10.8,6.2-12.5,12.5c-2.9,11.2-2.9,34-2.9,34s0,22.8,2.9,34c1.7,6.2,6.2,10.8,12.5,12.5c10.8,2.9,55.2,2.9,55.2,2.9s44,0,55.2-2.9c6.2-1.7,10.8-6.2,12.5-12.5c2.9-11.2,2.9-34,2.9-34S146.4,36.5,143.5,25.3z M61.3,80.5V38.2l36.5,21.2L61.3,80.5z" fill="RED" layoutX="264.0" layoutY="-8.0" />
+                  <SVGPath content="M97.5,59.6L61.6,80.3c-0.1,0.1-0.3,0-0.3-0.2V38.5c0-0.2,0.2-0.3,0.3-0.2l35.9,20.9C97.6,59.3,97.6,59.5,97.5,59.6z" fill="WHITE" layoutX="264.0" layoutY="-8.0" />
+               </children>
+            </AnchorPane>
+            <Label fx:id="title" text="Sign Up" BorderPane.alignment="CENTER" />
+            <Label text="Welcome to YouTube!">
+               <padding>
+                  <Insets bottom="20" />
+               </padding>
+            </Label>
+            <TextField fx:id="usernameField" onKeyReleased="#checkUsernameValidation" promptText="Username" styleClass="textbox">
+               <padding>
+                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="nameField" onKeyReleased="#checkNameValidation" promptText="Name" styleClass="textbox">
+               <padding>
+                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="emailField" onKeyReleased="#checkEmailValidation" promptText="Email" styleClass="textbox">
+               <padding>
+                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+               </padding>
+            </TextField>
+            <PasswordField fx:id="passwordField" onKeyReleased="#checkPassValidation" promptText="Password" styleClass="textbox">
+               <padding>
+                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+               </padding>
+            </PasswordField>
+            <HBox alignment="CENTER" spacing="20">
+               <children>
+                  <RadioButton selected="true" styleClass="radioButton" text="Male">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="toggle" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton styleClass="radioButton" text="Female" toggleGroup="$toggle" />
+               </children>
+            </HBox>
+            <Pane prefHeight="20">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" layoutX="235.0" layoutY="1.0" spacing="10">
+                     <children>
+                        <Line endX="70" startX="0" stroke="#f2f4f5" />
+                        <Label fx:id="signUpLabel" onMouseClicked="#login" style="-fx-text-fill: #4fbcff;" text="Or Login" />
+                        <Line endX="70" startX="0" stroke="#f2f4f5" />
+                     </children>
+                  </HBox>
+               </children>
+            </Pane>
+            <Button fx:id="submitSignUp" defaultButton="true" disable="true" onAction="#submitSignUp" styleClass="submmitButton" text="Sign Up" />
+         </children>
+      </VBox>
+      <Button id="back_btn" layoutX="23.0" layoutY="17.0" mnemonicParsing="false" onAction="#backToMainPage" />
+   </children>
+   <stylesheets>
+      <URL value="@style.css" />
+      <URL value="@signup.css" />
+   </stylesheets>
+</AnchorPane>

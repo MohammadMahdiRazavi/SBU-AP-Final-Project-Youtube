@@ -1,0 +1,49 @@
+#signUpLabel:hover{
+    -fx-cursor: hand;
+}
+#signUpLabel:focused{
+    -fx-opacity: 0.5;
+}
+VBox {
+    -fx-background-color: rgb(16, 16, 16);;
+}
+#title {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f2f4f5;
+}
+.radioButton{
+    -fx-text-fill: #f2f4f5;
+    -fx-font: 13 "SF-Arabic";
+    -fx-mark-color: #82959B;
+}
+.radioButton .radio{
+    -fx-background-color: #172429;
+    -fx-padding: 3;
+    -fx-border-radius: 15;
+    -fx-background-image: null;
+    -fx-border-color: #82959B;
+}
+.radioButton .dot{
+    -fx-background-radius: 15;
+    -fx-padding: 8;
+    /*-fx-background-color: transparent;*/
+}
+.radioButton .radio:selected{
+-fx-background-image: null;
+}
+
+#back_btn{
+    -fx-shape: "M18,3C9.7,3,3,9.7,3,18s6.7,15,15,15s15-6.7,15-15S26.3,3,18,3z M22.1,24.4l-2.1,2.1L11.4,18l8.6-8.6l2.1,2.1L15.6,18L22.1,24.4z";
+    -fx-scale-shape: fit;
+    -fx-background-color: #c2c2c2;
+}
+
+#back_btn:hover{
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.6), 10, 0.0, 0, 0);
+}
+
+#back_btn:pressed{
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0.0, 0, 0);
+}
