@@ -1,0 +1,158 @@
+#anchor_pane{
+    -fx-background-color: black;
+}
+
+
+#play_btn{
+    -fx-shape: "M4.6,2.4v27l22.5-13.5L4.6,2.4z";
+    -fx-scale-shape: fit;
+    -fx-background-color: white;
+}
+
+#pause_btn{
+    -fx-shape: "M6,3.7h6.8v22.5H6V3.7z M17.2,3.7H24v22.5h-6.8V3.7z";
+    -fx-scale-shape: fit;
+    -fx-background-color: white;
+}
+
+#fast_forward_btn{
+    -fx-shape: "M34.6,18.8L18.9,7.6v22.5L34.6,18.8z M3.1,7.6v22.5l15.7-11.3L3.1,7.6z";
+    -fx-scale-shape: fit;
+    -fx-background-color: white;
+}
+
+#fast_backward_btn{
+    -fx-shape: "M3.1,18.9l15.7,11.2V7.6L3.1,18.9z M34.6,30.1V7.6L18.9,18.9L34.6,30.1z";
+    -fx-scale-shape: fit;
+    -fx-background-color: white;
+}
+
+#like_hollow_btn{
+    -fx-shape: "M29.8,11.9h-8.3l1.7-5C23.4,6,23.3,5,22.7,4.3S21.2,3,20.3,3h-2.4c-0.4,0-0.9,0.2-1.1,0.5l-7,8.4H6c-1.6,0-3,1.3-3,3v13.4 c0,1.6,1.3,3,3,3h19.8c1.2,0,2.3-0.8,2.8-1.9l4.1-10.9c0.1-0.2,0.1-0.3,0.1-0.5v-3C32.7,13.3,31.4,11.9,29.8,11.9z M6,14.9h3v13.4H6 V14.9z M29.8,17.6l-4,10.7H11.9V14l6.6-8h1.7L18,13c-0.3,0.8,0.2,1.6,0.9,1.9c0.2,0.1,0.3,0.1,0.5,0.1h10.4V17.6z";
+    -fx-scale-shape: fit;
+    -fx-background-color: white;
+}
+
+#dislike_hollow_btn{
+    -fx-shape: "M30.8,5.5H11c-1.2,0-2.3,0.8-2.8,1.9L4.1,18.4C4.1,18.5,4,18.7,4,18.9v3c0,1.6,1.3,3,3,3h8.3l-1.7,5 c-0.3,0.9-0.2,1.9,0.4,2.7c0.6,0.8,1.5,1.2,2.4,1.2h2.4c0.4,0,0.9-0.2,1.1-0.5l7-8.4h3.8c1.6,0,3-1.3,3-3V8.5 C33.7,6.9,32.4,5.5,30.8,5.5z M18.2,30.8h-1.7l2.3-7c0.3-0.8-0.2-1.6-0.9-1.9c-0.2-0.1-0.3-0.1-0.5-0.1H7v-2.7l4-10.7h13.8v14.3 L18.2,30.8z M27.8,21.9V8.5h3l0,13.4H27.8z";
+    -fx-scale-shape: fit;
+    -fx-background-color: white;
+}
+
+#liked_btn{
+    -fx-shape: "M7.5,34.3H9V13.9H7.5c-1.8,0-3.1,1.4-3.1,3.2v14.1C4.4,32.9,5.8,34.3,7.5,34.3z M32.7,13.9H21.6l1.7-5.3 c0.6-1.7-0.4-3.4-2-4c-0.4-0.1-0.6-0.1-1-0.1h-0.4l-7.9,8.5v21.4h17.4l6.2-13.5l0.1-0.6V17C35.9,15.3,34.5,13.9,32.7,13.9z";
+    -fx-scale-shape: fit;
+    -fx-background-color: white;
+}
+
+#disliked_btn{
+    -fx-shape: "M35.5,8.7H34v20.4h1.5c1.8,0,3.1-1.4,3.1-3.1V11.8C38.6,10.1,37.2,8.7,35.5,8.7z M10.3,29.1h11.1l-1.8,5.3 c-0.6,1.7,0.3,3.4,2,4c0.4,0.1,0.6,0.1,1,0.1h0.4l7.8-8.5V8.7H13.4L7.2,22.3l-0.1,0.5V26C7.1,27.7,8.5,29.1,10.3,29.1z";
+    -fx-scale-shape: fit;
+    -fx-background-color: white;
+}
+
+#send_button{
+    -fx-background-color: #272727;
+    -fx-text-fill: White;
+    -fx-font-size: 25px;
+    -fx-background-radius: 50px;
+}
+
+#send_button:hover{
+    -fx-background-color: #363636;
+}
+
+#send_button:pressed{
+    -fx-background-color: #b0b0b0;
+    -fx-text-fill: black;
+}
+
+#comment_field{
+    -fx-font-size: 20px;
+    -fx-background-radius: 30px;
+    -fx-background-color: #272727;
+    -fx-text-fill: White;
+}
+
+.scroll-pane , .scroll-pane .corner{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane , .scroll-pane .viewport{
+    -fx-background-color: #0F0F0F;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical , .scroll-bar > .increment-button > .increment-arrow,
+.scroll-bar > .decrement-button > .decrement-arrow{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar .thumb{
+    -fx-background-color: #414141;
+    -fx-background-radius: 10px;
+}
+
+#video_title{
+    -fx-text-fill: White;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-font-size: 50;
+}
+
+#description{
+    -fx-text-fill: White;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-font-size: 27px;
+}
+
+#description_content{
+    -fx-text-fill: White;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-font-size: 20px;
+}
+
+#likes_dislikes{
+    -fx-text-fill: White;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#comment_name{
+    -fx-text-fill: White;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#comment_content{
+    -fx-text-fill: White;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-font-size: 18px;
+}
+
+#comment_date{
+    -fx-text-fill: White;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-font-size: 15px;
+}
+
+#comment_box{
+    -fx-background-color: #414141;
+    -fx-background-radius: 20px;
+}
+
+#back_btn{
+    -fx-shape: "M18,3C9.7,3,3,9.7,3,18s6.7,15,15,15s15-6.7,15-15S26.3,3,18,3z M22.1,24.4l-2.1,2.1L11.4,18l8.6-8.6l2.1,2.1L15.6,18L22.1,24.4z";
+    -fx-scale-shape: fit;
+    -fx-background-color: #c2c2c2;
+}
+
+#back_btn:hover{
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.6), 10, 0.0, 0, 0);
+}
+
+#back_btn:pressed{
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0.0, 0, 0);
+}

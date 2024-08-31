@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane hbarPolicy="NEVER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="815.0" prefWidth="1300.0" stylesheets="@video-page.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.youtube.ui.VideoPageController">
+   <content>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="1280.0">
+         <center>
+            <AnchorPane id="anchor_pane" prefHeight="760.0" prefWidth="1280.0" BorderPane.alignment="CENTER">
+               <children>
+                  <MediaView fx:id="media_view" fitHeight="680.0" fitWidth="1280.0" />
+                  <Slider fx:id="mediaSlider" layoutX="10.0" layoutY="683.0" prefHeight="14.0" prefWidth="1262.0" />
+                  <HBox alignment="CENTER_LEFT" layoutY="706.0" prefHeight="39.0" prefWidth="1280.0">
+                     <children>
+                        <Button id="play_btn" mnemonicParsing="false" onAction="#playVideo" text="    ">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button id="pause_btn" mnemonicParsing="false" onAction="#pauseVideo" text="   ">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button id="fast_forward_btn" mnemonicParsing="false" onAction="#fastForward" text="       ">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button id="fast_backward_btn" mnemonicParsing="false" onAction="#fastBackward" text="      ">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button id="like_hollow_btn" fx:id="like_btn" mnemonicParsing="false" onAction="#likeVideo" text="       ">
+                           <HBox.margin>
+                              <Insets bottom="5.0" right="10.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button id="dislike_hollow_btn" fx:id="dislike_btn" mnemonicParsing="false" onAction="#dislikeVideo" text="     ">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Slider fx:id="volume_slider">
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Slider>
+                        <Label fx:id="play_rate" text="1.0X" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="20.0" right="20.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </center>
+         <bottom>
+            <VBox fx:id="box" prefWidth="1280.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label id="video_title" fx:id="video_title" text="Title">
+                     <font>
+                        <Font size="43.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label id="description" text="Description">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label id="description_content" fx:id="description_content" text="your description here your description here your description here your description here your description here your description here your description here your description here your description here your description here your description here your description here your description here your description here your description here your description here your description here your description here your description here " wrapText="true">
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="TOP_CENTER" prefWidth="1280.0">
+                     <children>
+                        <Label id="likes_dislikes" fx:id="like_label" text="Likes: 0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label id="likes_dislikes" fx:id="dislike_label" text="Dislikes: 0">
+                           <HBox.margin>
+                              <Insets left="40.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="68.0" prefWidth="1280.0">
+                     <children>
+                        <TextField id="comment_field" fx:id="comment_field" prefHeight="46.0" prefWidth="683.0" promptText="Enter your comment here..." />
+                        <Button id="send_button" mnemonicParsing="false" onAction="#sendComment" text="Comment">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children></VBox>
+         </bottom>
+         <top>
+            <AnchorPane prefHeight="43.0" prefWidth="1280.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button id="back_btn" fx:id="back_btn" layoutX="19.0" layoutY="9.0" mnemonicParsing="false" onAction="#backToMainPage" />
+               </children>
+            </AnchorPane>
+         </top>
+      </BorderPane>
+   </content>
+</ScrollPane>
