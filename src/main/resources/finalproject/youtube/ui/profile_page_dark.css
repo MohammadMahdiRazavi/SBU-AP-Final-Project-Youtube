@@ -1,0 +1,133 @@
+#top_panel{
+    -fx-background-color: linear-gradient(to bottom , #26262a, #0F0F0F);
+    /*-fx-background-color: #272727;*/
+}
+
+#name_label{
+    -fx-text-fill: #ececec;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-font-size: 65px;
+    -fx-font-weight: bold;
+}
+
+#profile_label{
+    -fx-text-fill: #ececec;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#channel_label{
+    -fx-text-fill: #ececec;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+#theme_btn{
+    -fx-shape: "M6.995 12c0 2.761 2.246 5.007 5.007 5.007s5.007-2.246 5.007-5.007-2.246-5.007-5.007-5.007S6.995 9.239 6.995 12zM11 19h2v3h-2zm0-17h2v3h-2zm-9 9h3v2H2zm17 0h3v2h-3zM5.637 19.778l-1.414-1.414 2.121-2.121 1.414 1.414zM16.242 6.344l2.122-2.122 1.414 1.414-2.122 2.122zM6.344 7.759 4.223 5.637l1.415-1.414 2.12 2.122zm13.434 10.605-1.414 1.414-2.122-2.122 1.414-1.414z";
+    /*-fx-shape: "M12 11.807A9.002 9.002 0 0 1 10.049 2a9.942 9.942 0 0 0-5.12 2.735c-3.905 3.905-3.905 10.237 0 14.142 3.906 3.906 10.237 3.905 14.143 0a9.946 9.946 0 0 0 2.735-5.119A9.003 9.003 0 0 1 12 11.807z";*/
+    -fx-background-color: #e8e8e8;
+}
+
+#theme_btn:hover{
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.6), 10, 0.0, 0, 0);
+    -fx-background-color: white;
+}
+
+#theme_btn:pressed{
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.7), 15, 0.0, 0, 0);
+    -fx-background-color: white;
+}
+
+/*.tab-pane {*/
+/*    -fx-background-color: #0F0F0F;*/
+/*}*/
+
+/*.tab .tab-label {*/
+/*    -fx-font-family: "Microsoft JhengHei";*/
+/*    -fx-text-fill: white;*/
+/*    -fx-font-size: 20px;*/
+/*    -fx-background-insets: 0px;*/
+/*}*/
+
+/*.tab-pane > *.tab-header-area > *.tab-header-background {*/
+/*    -fx-background-color: linear-gradient(to bottom , #26262a, #0F0F0F);*/
+/*    -fx-background-insets: 0;*/
+/*}*/
+
+/*.tab-pane .tab-header-area {*/
+/*    -fx-padding: 10px 0px 0px 10px;*/
+/*}*/
+
+/*.tab {*/
+/*    -fx-background-color: #1e1e21;*/
+/*    !*-fx-background-color: transparent;*!*/
+/*    -fx-background-insets: 0px 0px 0px 0px;*/
+/*    -fx-background-radius: 10px 10px 0px 0px;*/
+/*    -fx-padding: 8px 15px 10px 15px;*/
+/*}*/
+
+/*.tab:selected {*/
+/*    -fx-background-color: #0F0F0F;*/
+/*    -fx-focus-color: transparent;*/
+/*    -fx-faint-focus-color: transparent;*/
+/*    -fx-background-radius: 10px 10px 0px 0px;*/
+/*    -fx-background-insets: 0, 1, 2;*/
+
+/*}*/
+
+#edit_profile_labels{
+    -fx-text-fill: #ececec;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#edit_profile_btn{
+    -fx-background-color: #272727;
+    -fx-background-radius: 20px;
+    -fx-text-fill: White;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+}
+
+#edit_profile_btn:hover {
+    -fx-background-color: #3b3b3b;
+}
+
+#edit_profile_btn:pressed {
+    -fx-background-color: #d0d0d0;
+    -fx-text-fill: black;
+
+}
+
+.text-field{
+    -fx-background-color: #272727;
+    -fx-background-radius: 50px;
+    -fx-text-fill: White;
+    -fx-text-alignment: center;
+    -fx-font-size: 18px;
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-border-radius: 50px;
+}
+
+#edit_profile_pane{
+    -fx-background-color: #0F0F0F;
+}
+
+#back_btn{
+    -fx-shape: "M18,3C9.7,3,3,9.7,3,18s6.7,15,15,15s15-6.7,15-15S26.3,3,18,3z M22.1,24.4l-2.1,2.1L11.4,18l8.6-8.6l2.1,2.1L15.6,18L22.1,24.4z";
+    -fx-scale-shape: fit;
+    -fx-background-color: #c2c2c2;
+}
+
+#back_btn:hover{
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.6), 10, 0.0, 0, 0);
+}
+
+#back_btn:pressed{
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0.0, 0, 0);
+}
