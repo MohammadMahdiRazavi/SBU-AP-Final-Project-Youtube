@@ -4,13 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0067f4cc-4e96-4c51-b63e-50e1d1b74cf8" name="Changes" comment="" />
+    <list default="true" id="0067f4cc-4e96-4c51-b63e-50e1d1b74cf8" name="Changes" comment="ClientHandler class completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/clientSideContainers/PopularChannels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/clientSideContainers/VideoBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/clientSideContainers/YouTubeMix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -25,8 +42,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -47,11 +69,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725091551429</updated>
-      <workItem from="1725091552577" duration="3000" />
+      <workItem from="1725091552577" duration="787000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1725091825124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725091825124</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Client class completed">
+      <option name="closed" value="true" />
+      <created>1725092042010</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725092042010</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ClientHandler class completed">
+      <option name="closed" value="true" />
+      <created>1725092054249</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725092054249</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="Client class completed" />
+    <MESSAGE value="ClientHandler class completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="ClientHandler class completed" />
   </component>
 </project>
