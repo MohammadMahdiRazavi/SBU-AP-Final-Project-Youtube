@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.youtube.ui.SubPageController">
+   <children>
+      <BorderPane prefHeight="720.0" prefWidth="1280.0" styleClass="background-pane" stylesheets="@sub_page_dark.css">
+         <left>
+            <VBox prefHeight="720.0" prefWidth="268.0" styleClass="left-pane" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox prefHeight="720.0" prefWidth="268.0" styleClass="left-pane">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="0.0" prefWidth="715.0">
+                           <children>
+                              <Group>
+                                 <children>
+                                    <SVGPath content="M268,73.9c-0.4-1.5-1.5-2.6-3-3c-2.7-0.7-13.3-0.7-13.3-0.7s-10.6,0-13.3,0.7c-1.5,0.4-2.6,1.5-3,3c-0.7,2.7-0.7,8.2-0.7,8.2s0,5.5,0.7,8.2c0.4,1.5,1.5,2.6,3,3C241,94,251.7,94,251.7,94s10.6,0,13.3-0.7c1.5-0.4,2.6-1.5,3-3c0.7-2.7,0.7-8.2,0.7-8.2S268.7,76.6,268,73.9z M248.2,87.2V77c0,0,0,0,0,0l8.8,5.1c0,0,0,0,0,0L248.2,87.2C248.3,87.2,248.2,87.2,248.2,87.2z" fill="RED" />
+                                    <SVGPath content="M256.9,82.2l-8.6,4.9c-0.1,0-0.1,0-0.1-0.1v-9.9c0-0.1,0.1-0.1,0.2-0.1l8.6,5C257,82.1,257,82.2,256.9,82.2z" fill="WHITE" />
+                                 </children>
+                              </Group>
+                              <SVGPath content="M330.7,79.8c-0.2-1-0.5-1.6-1-2s-1.1-0.6-1.9-0.6c-0.6,0-1.2,0.2-1.7,0.5c-0.5,0.3-1,0.8-1.2,1.4h0v-7.9h-3.3v21.2h2.8l0.3-1.4h0.1c0.3,0.5,0.6,0.9,1.2,1.2c0.5,0.3,1.1,0.5,1.7,0.5c1.2,0,2-0.5,2.5-1.6c0.5-1,0.8-2.7,0.8-4.9v-2.4C331,82,330.9,80.7,330.7,79.8L330.7,79.8z M327.6,85.8c0,1.1-0.1,1.9-0.1,2.5c-0.1,0.6-0.3,1.1-0.5,1.3c-0.2,0.3-0.5,0.4-0.8,0.4c-0.3,0-0.5-0.1-0.8-0.2c-0.2-0.1-0.4-0.3-0.6-0.6v-8.4c0.1-0.4,0.3-0.7,0.6-1c0.3-0.3,0.6-0.4,0.9-0.4c0.3,0,0.6,0.1,0.8,0.4c0.2,0.3,0.3,0.7,0.4,1.4c0.1,0.6,0.1,1.5,0.1,2.7L327.6,85.8L327.6,85.8z M319.6,77.4v14.9H317l-0.3-1.8h-0.1c-0.7,1.4-1.8,2.1-3.2,2.1c-1,0-1.7-0.3-2.2-1c-0.5-0.6-0.7-1.6-0.7-3.1V77.4h3.4v11c0,0.7,0.1,1.2,0.2,1.4c0.1,0.3,0.4,0.4,0.7,0.4c0.3,0,0.6-0.1,0.8-0.3c0.3-0.2,0.5-0.4,0.6-0.7V77.4H319.6z M311.5,74.6h-3.3v17.7h-3.3V74.6h-3.3v-2.7h10L311.5,74.6L311.5,74.6z M284.1,91.9c-0.7-0.5-1.2-1.2-1.4-2.1c-0.3-1-0.4-2.2-0.4-3.8v-2.2c0-1.6,0.2-2.9,0.5-3.9c0.3-1,0.8-1.7,1.5-2.1c0.7-0.5,1.6-0.7,2.7-0.7c1.1,0,2,0.2,2.7,0.7c0.7,0.5,1.2,1.2,1.5,2.1c0.3,1,0.5,2.2,0.5,3.9v2.2c0,1.6-0.1,2.9-0.5,3.8c-0.3,1-0.8,1.7-1.5,2.1c-0.7,0.5-1.6,0.7-2.7,0.7C285.7,92.5,284.7,92.3,284.1,91.9L284.1,91.9z M287.8,89.5c0.2-0.5,0.3-1.3,0.3-2.4v-4.6c0-1.1-0.1-1.8-0.3-2.4s-0.5-0.7-1-0.7c-0.5,0-0.8,0.3-1,0.7c-0.2,0.5-0.3,1.3-0.3,2.4v4.6c0,1.1,0.1,1.9,0.3,2.4c0.2,0.5,0.5,0.7,1,0.7C287.3,90.3,287.6,90,287.8,89.5L287.8,89.5z M335.8,86v0.8c0,1,0,1.7,0.1,2.2c0.1,0.5,0.2,0.8,0.4,1c0.2,0.2,0.5,0.3,0.8,0.3c0.5,0,0.8-0.2,1-0.6c0.2-0.4,0.3-1,0.3-2l2.9,0.2c0,0.1,0,0.3,0,0.5c0,1.4-0.4,2.4-1.1,3.1c-0.8,0.7-1.8,1-3.2,1c-1.6,0-2.8-0.5-3.5-1.6c-0.7-1-1-2.6-1-4.8v-2.6c0-2.2,0.3-3.9,1-4.9c0.7-1,1.9-1.5,3.5-1.5c1.2,0,2,0.2,2.7,0.6c0.6,0.4,1,1.1,1.3,2c0.3,0.9,0.4,2.1,0.4,3.7v2.5L335.8,86L335.8,86L335.8,86z M336.2,79.7c-0.2,0.2-0.3,0.6-0.3,1c-0.1,0.5-0.1,1.2-0.1,2.2V84h2.5v-1.1c0-1,0-1.7-0.1-2.2s-0.2-0.8-0.4-1c-0.2-0.2-0.5-0.3-0.8-0.3C336.6,79.4,336.4,79.5,336.2,79.7L336.2,79.7z M275.9,85.7l-3.8-13.8h3.3l1.4,6.3c0.3,1.5,0.6,2.9,0.8,4h0.1c0.1-0.8,0.4-2.1,0.8-3.9l1.4-6.3h3.3l-3.9,13.8v6.6h-3.3L275.9,85.7L275.9,85.7z M302.3,77.4v14.9h-2.6l-0.3-1.8h-0.1c-0.7,1.4-1.8,2.1-3.2,2.1c-1,0-1.7-0.3-2.2-1c-0.5-0.6-0.7-1.6-0.7-3.1V77.4h3.4v11c0,0.7,0.1,1.2,0.2,1.4c0.1,0.3,0.4,0.4,0.7,0.4c0.3,0,0.6-0.1,0.8-0.3c0.3-0.2,0.5-0.4,0.6-0.7V77.4H302.3z" fill="WHITE" />
+                           </children>
+                           <VBox.margin>
+                              <Insets left="20.0" top="20.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <Label styleClass="left-pane-list-labels" text="MENU">
+                           <font>
+                              <Font name="Bell MT Bold" size="38.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="30.0" left="20.0" top="70.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox fx:id="home1" alignment="CENTER_LEFT" prefHeight="6.0" prefWidth="403.0" styleClass="sidebar-button">
+                           <children>
+                              <SVGPath content="m21.743 12.331-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 0 0 .743-1.669z" fill="WHITE" styleClass="sidebar-button-icon">
+                                 <HBox.margin>
+                                    <Insets left="20.0" right="15.0" />
+                                 </HBox.margin>
+                              </SVGPath>
+                              <Label styleClass="sidebar-button-text" text="Home" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="30.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox fx:id="trending1" alignment="CENTER_LEFT" prefHeight="6.0" prefWidth="403.0" styleClass="sidebar-button">
+                           <children>
+                              <SVGPath content="M16.5 8c0 1.5-.5 3.5-2.9 4.3.7-1.7.8-3.4.3-5-.7-2.1-3-3.7-4.6-4.6-.4-.3-1.1.1-1 .7 0 1.1-.3 2.7-2 4.4C4.1 10 3 12.3 3 14.5 3 17.4 5 21 9 21c-4-4-1-7.5-1-7.5.8 5.9 5 7.5 7 7.5 1.7 0 5-1.2 5-6.4 0-3.1-1.3-5.5-2.4-6.9-.3-.5-1-.2-1.1.3" fill="WHITE" styleClass="sidebar-button-icon">
+                                 <HBox.margin>
+                                    <Insets left="20.0" right="15.0" />
+                                 </HBox.margin>
+                              </SVGPath>
+                              <Label styleClass="sidebar-button-text" text="Trending" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="30.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox fx:id="subscriptions1" alignment="CENTER_LEFT" prefHeight="6.0" prefWidth="403.0" styleClass="sidebar-button">
+                           <children>
+                              <SVGPath content="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z" fill="WHITE" styleClass="sidebar-button-icon">
+                                 <HBox.margin>
+                                    <Insets left="20.0" right="13.0" />
+                                 </HBox.margin>
+                              </SVGPath>
+                              <Label styleClass="sidebar-button-text" text="Subscriptinos" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="30.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox fx:id="search" alignment="CENTER_LEFT" prefHeight="6.0" prefWidth="403.0" styleClass="sidebar-button">
+                           <children>
+                              <SVGPath content="M10 2c-4.411 0-8 3.589-8 8s3.589 8 8 8a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8z" fill="WHITE" styleClass="sidebar-button-icon">
+                                 <HBox.margin>
+                                    <Insets left="20.0" right="13.0" />
+                                 </HBox.margin>
+                              </SVGPath>
+                              <Label styleClass="sidebar-button-text" text="Search" />
+                           </children>
+                        </HBox>
+                        <Label styleClass="left-pane-list-labels" text="LIBRARY">
+                           <font>
+                              <Font name="Bell MT Bold" size="38.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="30.0" left="20.0" top="50.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox fx:id="history1" alignment="CENTER_LEFT" prefHeight="6.0" prefWidth="403.0" styleClass="sidebar-button">
+                           <children>
+                              <SVGPath content="M12 8v5h5v-2h-3V8z M21.292 8.497a8.957 8.957 0 0 0-1.928-2.862 9.004 9.004 0 0 0-4.55-2.452 9.09 9.09 0 0 0-3.626 0 8.965 8.965 0 0 0-4.552 2.453 9.048 9.048 0 0 0-1.928 2.86A8.963 8.963 0 0 0 4 12l.001.025H2L5 16l3-3.975H6.001L6 12a6.957 6.957 0 0 1 1.195-3.913 7.066 7.066 0 0 1 1.891-1.892 7.034 7.034 0 0 1 2.503-1.054 7.003 7.003 0 0 1 8.269 5.445 7.117 7.117 0 0 1 0 2.824 6.936 6.936 0 0 1-1.054 2.503c-.25.371-.537.72-.854 1.036a7.058 7.058 0 0 1-2.225 1.501 6.98 6.98 0 0 1-1.313.408 7.117 7.117 0 0 1-2.823 0 6.957 6.957 0 0 1-2.501-1.053 7.066 7.066 0 0 1-1.037-.855l-1.414 1.414A8.985 8.985 0 0 0 13 21a9.05 9.05 0 0 0 3.503-.707 9.009 9.009 0 0 0 3.959-3.26A8.968 8.968 0 0 0 22 12a8.928 8.928 0 0 0-.708-3.503z" fill="WHITE" styleClass="sidebar-button-icon">
+                                 <HBox.margin>
+                                    <Insets left="20.0" right="15.0" />
+                                 </HBox.margin>
+                              </SVGPath>
+                              <Label styleClass="sidebar-button-text" stylesheets="@main-page.css" text="History" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="30.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox fx:id="liked_videos1" alignment="CENTER_LEFT" prefHeight="6.0" prefWidth="403.0" styleClass="sidebar-button">
+                           <children>
+                              <SVGPath content="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z" fill="WHITE" styleClass="sidebar-button-icon">
+                                 <HBox.margin>
+                                    <Insets left="20.0" right="15.0" />
+                                 </HBox.margin>
+                              </SVGPath>
+                              <Label styleClass="sidebar-button-text" stylesheets="@main-page.css" text="Liked Videos" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="30.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox fx:id="playlists1" alignment="CENTER_LEFT" prefHeight="6.0" prefWidth="403.0" styleClass="sidebar-button">
+                           <children>
+                              <SVGPath content="M2,5h18v2H2V5z M2,9h18v2H2V9z M2,13h9v2H2V13z M2,17h9v2H2V17z M18.7,15l-3.9-2.3c-0.6-0.3-1.4,0.1-1.4,0.8V18c0,0.7,0.8,1.1,1.4,0.8l3.9-2.3C19.3,16.2,19.3,15.3,18.7,15z" fill="WHITE" styleClass="sidebar-button-icon">
+                                 <HBox.margin>
+                                    <Insets left="20.0" right="15.0" />
+                                 </HBox.margin>
+                              </SVGPath>
+                              <Label styleClass="sidebar-button-text" stylesheets="@main-page.css" text="Playlists" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="BOTTOM_CENTER" prefHeight="7.0" prefWidth="403.0">
+                           <children>
+                              <Label text="YouTube App v2.45" textFill="#4a4c5e" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="140.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" styleClass="main-panel" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="51.0" prefWidth="1012.0">
+                     <children>
+                        <TextField prefHeight="26.0" prefWidth="409.0" promptText="Jump into the world of YouTube" styleClass="search-bar">
+                           <HBox.margin>
+                              <Insets left="30.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <SVGPath content="M10 2c-4.411 0-8 3.589-8 8s3.589 8 8 8a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8z" fill="WHITE" styleClass="search-button">
+                           <HBox.margin>
+                              <Insets left="10.0" right="430.0" />
+                           </HBox.margin>
+                        </SVGPath>
+                        <SVGPath fx:id="notif_btn" content="M12 22a2.98 2.98 0 0 0 2.818-2H9.182A2.98 2.98 0 0 0 12 22zm7-7.414V10c0-3.217-2.185-5.927-5.145-6.742C13.562 2.52 12.846 2 12 2s-1.562.52-1.855 1.258C7.185 4.074 5 6.783 5 10v4.586l-1.707 1.707A.996.996 0 0 0 3 17v1a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-1a.996.996 0 0 0-.293-.707L19 14.586z" fill="#d91c1c" styleClass="notification-button">
+                           <HBox.margin>
+                              <Insets right="25.0" />
+                           </HBox.margin>
+                        </SVGPath>
+                        <Circle fx:id="avatar" fill="DODGERBLUE" radius="21.0" stroke="#8a898d" strokeType="INSIDE" strokeWidth="2.0" styleClass="avatar" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" top="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <ScrollPane prefHeight="623.0" prefWidth="1012.0">
+                     <content>
+                        <VBox fx:id="subed_channels_vbox" prefHeight="623.0" prefWidth="946.0">
+                           <padding>
+                              <Insets bottom="10.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                     <VBox.margin>
+                        <Insets left="20.0" right="20.0" />
+                     </VBox.margin>
+                  </ScrollPane>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+      <ScrollPane id="notification-scroll-pane" fx:id="notification_scroll_pane" layoutX="886.0" layoutY="50.0" prefHeight="489.0" prefWidth="318.0" stylesheets="@main-page.css" visible="false">
+         <content>
+            <VBox id="notife_panel" prefWidth="302.0">
+               <children>
+                  <VBox id="notif_container" prefWidth="290.0">
+                     <children>
+                        <Label id="channel_name" text="Channel X">
+                           <VBox.margin>
+                              <Insets left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label id="notif_content" text="A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X" textAlignment="JUSTIFY" wrapText="true">
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox id="notif_container" prefWidth="290.0">
+                     <children>
+                        <Label id="channel_name" text="Channel X">
+                           <VBox.margin>
+                              <Insets left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label id="notif_content" text="A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X" textAlignment="JUSTIFY" wrapText="true">
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox id="notif_container" prefWidth="290.0">
+                     <children>
+                        <Label id="channel_name" text="Channel X">
+                           <VBox.margin>
+                              <Insets left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label id="notif_content" text="A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X" textAlignment="JUSTIFY" wrapText="true">
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox id="notif_container" prefWidth="290.0">
+                     <children>
+                        <Label id="channel_name" text="Channel X">
+                           <VBox.margin>
+                              <Insets left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label id="notif_content" text="A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X" textAlignment="JUSTIFY" wrapText="true">
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox id="notif_container" prefWidth="290.0">
+                     <children>
+                        <Label id="channel_name" text="Channel X">
+                           <VBox.margin>
+                              <Insets left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label id="notif_content" text="A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X A notification from channel X" textAlignment="JUSTIFY" wrapText="true">
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </VBox>
+         </content>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ScrollPane>
+   </children>
+</AnchorPane>
