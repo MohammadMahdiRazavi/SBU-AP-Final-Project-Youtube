@@ -1,0 +1,237 @@
+.background-pane{
+    -fx-background-color: transparent;
+}
+
+.main-panel{
+    -fx-background-color: rgb(21, 21, 24);
+}
+
+.left-pane{
+    -fx-background-color: rgb(18, 18, 26);
+}
+
+.left-pane-list-labels{
+    -fx-text-fill: #e8e8e8;
+    -fx-font-family: "Calibri";
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+
+.sidebar-button{
+    -fx-background-color: transparent;
+}
+
+.sidebar-button-text{
+    -fx-text-fill: #8a898d;
+    -fx-font-family: "Lucida Sans";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.sidebar-button-icon{
+    -fx-fill: #8a898d;
+}
+
+.sidebar-button:hover .sidebar-button-text{
+    -fx-text-fill: #e8e8e8;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.6), 10, 0.0, 0, 0);
+}
+
+.sidebar-button:hover .sidebar-button-icon{
+    -fx-fill: #e8e8e8;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.6), 10, 0.0, 0, 0);
+}
+
+.sidebar-button-selected{
+    -fx-background-color: transparent;
+}
+
+.sidebar-button-selected .sidebar-button-text{
+    -fx-text-fill: #e8e8e8;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.6), 10, 0.0, 0, 0);
+}
+
+.sidebar-button-selected .sidebar-button-icon{
+    -fx-fill: #e8e8e8;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.6), 10, 0.0, 0, 0);
+}
+
+
+.notification-button{
+    -fx-fill: #8a898d;
+}
+
+.notification-button:hover{
+    -fx-fill: #e8e8e8;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.6), 10, 0.0, 0, 0);
+}
+
+.search-bar {
+    -fx-font-family: "Lucida Sans";
+    -fx-font-size: 15px;
+    -fx-text-fill: #e8e8e8;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-color: #8a898d;
+    -fx-prompt-text-fill: #8a898d;
+    -fx-background-color: transparent;
+}
+
+.search-button {
+    -fx-fill: #8a898d;
+}
+
+.search-button:hover{
+    -fx-fill: #e8e8e8;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.6), 10, 0.0, 0, 0);
+}
+
+.avatar{
+    /*-fx-background-image: url("media/avatar/sample.jpg");*/
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-stroke: #8a898d;
+    -fx-stroke-width: 2px;
+    /*-fx-background-radius: 50%;*/
+}
+
+.avatar:hover{
+    -fx-stroke: #e8e8e8;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.6), 10, 0.0, 0, 0);
+}
+
+.main-page-labels{
+    -fx-font-family: "Lucida Sans";
+    -fx-text-fill: #e8e8e8;
+    -fx-font-size: 18px;
+}
+
+.rec-vid-scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.rec-vid-scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical , .scroll-bar > .increment-button > .increment-arrow,
+.scroll-bar > .decrement-button > .decrement-arrow, .scroll-bar .thumb{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.video-bottom-box {
+    -fx-background-color: white;
+    /*-fx-background-radius: 0px 0px 20px 20px;*/
+}
+
+.video-label {
+    -fx-font-family: "Lucida Sans";
+    -fx-font-size: 12px;
+    -fx-text-fill: #131313;
+}
+
+.video-channel {
+    -fx-font-family: "Lucida Sans";
+    -fx-font-size: 9px;
+    -fx-text-fill: #1c1c1c;
+}
+
+.video-duration {
+    -fx-font-family: "Lucida Sans";
+    -fx-font-size: 11px;
+    -fx-text-fill: #131313;
+
+    -fx-background-color: rgba(255, 255, 255, 0.75);
+    -fx-background-radius: 10px;
+
+    -fx-padding: 1px 3px 1px 3px;
+}
+
+.pop-chan-box{
+    -fx-background-radius: 10px;
+    -fx-background-color: rgba(72, 72, 72, 0.6);
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 0);
+}
+
+.pop-chan-box-name {
+    -fx-text-fill: white;
+    -fx-font-family: "Lucida Sans";
+    -fx-font-size: 12px;
+}
+
+.pop-chan-box-info {
+    -fx-text-fill: #a9a9a9;
+    -fx-font-family: "Lucida Sans";
+    -fx-font-size: 10px;
+}
+
+.pop-chan-box-btn {
+    -fx-background-radius: 5px;
+    -fx-alignment: center;
+    -fx-background-color: #c31f1d;
+    -fx-text-fill: white;
+    -fx-font-family: "Lucida Sans";
+    -fx-font-size: 10px;
+}
+
+.pop-chan-box-btn:pressed {
+    -fx-background-color: #b48282;
+    -fx-text-fill: #282626;
+}
+
+.pop-chan-box-btn-subscribed {
+    -fx-background-radius: 5px;
+    -fx-alignment: center;
+    -fx-background-color: #d2d2d2;
+    -fx-text-fill: #110f0f;
+    -fx-font-family: "Lucida Sans";
+    -fx-font-size: 10px;
+}
+
+.pop-chan-box-btn-subscribed:pressed{
+    -fx-background-color: #b65454;
+    -fx-text-fill: #110f0f;
+}
+
+.youtube-mix-right-panel{
+    -fx-background-color: rgba(87, 87, 87, 0.5);
+}
+
+.youtube-mix-right-panel .label{
+    -fx-font-family: "Lucida Sans";
+    -fx-text-fill: White;
+    -fx-font-size: 23px;
+}
+
+.youtube-mix-label {
+    -fx-font-family: "Lucida Sans";
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+}
+
+#channel_name{
+    -fx-font-family: "Microsoft JhengHei";
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#notif_content{
+    -fx-font-family: "Lucida Sans";
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+}
+
+#notife_panel{
+    -fx-background-color: #1e1e21;
+    -fx-background-radius: 10px;
+}
+
+#notif_container{
+    -fx-border-width: 0px 0px 2px 0px;
+    -fx-border-color: #484848;
+}
+
+#notification-scroll-pane, #notification-scroll-pane .viewport, #notification-scroll-pane .corner{
+    -fx-background-color: transparent;
+}
