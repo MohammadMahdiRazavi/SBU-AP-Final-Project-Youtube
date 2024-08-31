@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0067f4cc-4e96-4c51-b63e-50e1d1b74cf8" name="Changes" comment="DatabaseManger class completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/File/FileHandler.java" afterDir="false" />
+    <list default="true" id="0067f4cc-4e96-4c51-b63e-50e1d1b74cf8" name="Changes" comment="VideoPageController class completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/utility/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/finalproject/youtube/ui/DashBoardPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/ui/DashboardPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/finalproject/youtube/ui/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/ui/SearchPageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725091551429</updated>
-      <workItem from="1725091552577" duration="1225000" />
+      <workItem from="1725091552577" duration="2923000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -124,20 +126,206 @@
       <option name="project" value="LOCAL" />
       <updated>1725092681881</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="FileHandler class completed">
+      <option name="closed" value="true" />
+      <created>1725092806819</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725092806819</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Channel class completed">
+      <option name="closed" value="true" />
+      <created>1725092987267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725092987267</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Comment class completed">
+      <option name="closed" value="true" />
+      <created>1725093028788</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725093028788</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Notification class completed">
+      <option name="closed" value="true" />
+      <created>1725093058313</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725093058313</updated>
+    </task>
+    <task id="LOCAL-00012" summary="PlayList class completed">
+      <option name="closed" value="true" />
+      <created>1725093130229</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725093130229</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Video class completed">
+      <option name="closed" value="true" />
+      <created>1725093248013</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725093248013</updated>
+    </task>
+    <task id="LOCAL-00014" summary="User class completed">
+      <option name="closed" value="true" />
+      <created>1725093313459</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1725093313459</updated>
+    </task>
+    <task id="LOCAL-00015" summary=":)">
+      <option name="closed" value="true" />
+      <created>1725093327405</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1725093327405</updated>
+    </task>
+    <task id="LOCAL-00016" summary="AppNotification class completed">
+      <option name="closed" value="true" />
+      <created>1725094075909</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094075909</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ChannelPageController class completed">
+      <option name="closed" value="true" />
+      <created>1725094093027</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094093027</updated>
+    </task>
+    <task id="LOCAL-00018" summary="DashboardPageController class completed">
+      <option name="closed" value="true" />
+      <created>1725094110812</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094110812</updated>
+    </task>
+    <task id="LOCAL-00019" summary="HelloApplication class completed">
+      <option name="closed" value="true" />
+      <created>1725094124311</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094124311</updated>
+    </task>
+    <task id="LOCAL-00020" summary="HelloController class completed">
+      <option name="closed" value="true" />
+      <created>1725094142440</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094142440</updated>
+    </task>
+    <task id="LOCAL-00021" summary="LoginController class completed">
+      <option name="closed" value="true" />
+      <created>1725094154681</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094154681</updated>
+    </task>
+    <task id="LOCAL-00022" summary="MainPageController class completed">
+      <option name="closed" value="true" />
+      <created>1725094167831</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094167831</updated>
+    </task>
+    <task id="LOCAL-00023" summary="ProfilePageController class completed">
+      <option name="closed" value="true" />
+      <created>1725094185900</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094185900</updated>
+    </task>
+    <task id="LOCAL-00024" summary="SearchController class completed">
+      <option name="closed" value="true" />
+      <created>1725094203531</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094203531</updated>
+    </task>
+    <task id="LOCAL-00025" summary="SignUpController class completed">
+      <option name="closed" value="true" />
+      <created>1725094243820</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094243820</updated>
+    </task>
+    <task id="LOCAL-00026" summary="SubPageController class completed">
+      <option name="closed" value="true" />
+      <created>1725094260917</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094260917</updated>
+    </task>
+    <task id="LOCAL-00027" summary="ThemeController class completed">
+      <option name="closed" value="true" />
+      <created>1725094276983</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094276983</updated>
+    </task>
+    <task id="LOCAL-00028" summary="VideoPageController class completed">
+      <option name="closed" value="true" />
+      <created>1725094287321</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1725094287321</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <MESSAGE value="Client class completed" />
-    <MESSAGE value="ClientHandler class completed" />
     <MESSAGE value="PopularChannels class completed" />
     <MESSAGE value="VideoBox class completed" />
     <MESSAGE value="YouTubeMix class completed" />
     <MESSAGE value="DatabaseManger class completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="DatabaseManger class completed" />
+    <MESSAGE value="FileHandler class completed" />
+    <MESSAGE value="Channel class completed" />
+    <MESSAGE value="Comment class completed" />
+    <MESSAGE value="Notification class completed" />
+    <MESSAGE value="PlayList class completed" />
+    <MESSAGE value="Video class completed" />
+    <MESSAGE value="User class completed" />
+    <MESSAGE value=":)" />
+    <MESSAGE value="AppNotification class completed" />
+    <MESSAGE value="ChannelPageController class completed" />
+    <MESSAGE value="DashboardPageController class completed" />
+    <MESSAGE value="HelloApplication class completed" />
+    <MESSAGE value="HelloController class completed" />
+    <MESSAGE value="LoginController class completed" />
+    <MESSAGE value="MainPageController class completed" />
+    <MESSAGE value="ProfilePageController class completed" />
+    <MESSAGE value="SearchController class completed" />
+    <MESSAGE value="SignUpController class completed" />
+    <MESSAGE value="SubPageController class completed" />
+    <MESSAGE value="ThemeController class completed" />
+    <MESSAGE value="VideoPageController class completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="VideoPageController class completed" />
   </component>
 </project>

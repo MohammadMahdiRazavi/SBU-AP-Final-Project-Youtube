@@ -1,10 +1,8 @@
 package finalproject.youtube.ui;
 
-import finalproject.youtube.Model.Channel;
 import finalproject.youtube.client.Client;
 import finalproject.youtube.client.ClientHandler;
 import finalproject.youtube.clientSideContainers.PopularChannels;
-import finalproject.youtube.clientSideContainers.VideoBox;
 import finalproject.youtube.server.responses.*;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

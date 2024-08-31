@@ -1,7 +1,6 @@
 package finalproject.youtube.ui;
 
 import finalproject.youtube.File.FileHandler;
-import finalproject.youtube.client.ClientHandler;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
