@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0067f4cc-4e96-4c51-b63e-50e1d1b74cf8" name="Changes" comment="ClientHandler class completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/clientSideContainers/PopularChannels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/clientSideContainers/VideoBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/clientSideContainers/YouTubeMix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0067f4cc-4e96-4c51-b63e-50e1d1b74cf8" name="Changes" comment="DatabaseManger class completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/finalproject/youtube/File/FileHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725091551429</updated>
-      <workItem from="1725091552577" duration="787000" />
+      <workItem from="1725091552577" duration="1225000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -95,7 +92,39 @@
       <option name="project" value="LOCAL" />
       <updated>1725092054249</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PopularChannels class completed">
+      <option name="closed" value="true" />
+      <created>1725092356048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725092356048</updated>
+    </task>
+    <task id="LOCAL-00005" summary="VideoBox class completed">
+      <option name="closed" value="true" />
+      <created>1725092370040</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725092370040</updated>
+    </task>
+    <task id="LOCAL-00006" summary="YouTubeMix class completed">
+      <option name="closed" value="true" />
+      <created>1725092409991</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725092409991</updated>
+    </task>
+    <task id="LOCAL-00007" summary="DatabaseManger class completed">
+      <option name="closed" value="true" />
+      <created>1725092681881</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725092681881</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +134,10 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="Client class completed" />
     <MESSAGE value="ClientHandler class completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="ClientHandler class completed" />
+    <MESSAGE value="PopularChannels class completed" />
+    <MESSAGE value="VideoBox class completed" />
+    <MESSAGE value="YouTubeMix class completed" />
+    <MESSAGE value="DatabaseManger class completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="DatabaseManger class completed" />
   </component>
 </project>
