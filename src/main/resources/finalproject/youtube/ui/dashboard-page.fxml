@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.SVGPath?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@dashboard-page-dark.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.youtube.ui.DashboardPageController">
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="35.0" prefWidth="1280.0" style="-fx-background-color: #272727;" BorderPane.alignment="CENTER">
+         <children>
+            <Button id="back_btn" fx:id="back_btn" mnemonicParsing="false" onAction="#backToMainPage">
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </Button>
+         </children></HBox>
+   </top>
+   <center>
+      <TabPane prefHeight="200.0" prefWidth="200.0" side="LEFT" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+        <tabs>
+          <Tab id="channel_info_tab" text="               ">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Circle id="channel_profile" fill="#2e2e2e" layoutX="141.0" layoutY="185.0" radius="122.0" stroke="BLACK" strokeType="OUTSIDE" />
+                        <VBox layoutX="290.0" layoutY="39.0" prefHeight="264.0" prefWidth="885.0">
+                           <children>
+                              <Label id="channel_name" text="Channel name" />
+                              <Label id="channel_id" text="channel_id" />
+                              <Label id="channel_attr" text="Subscribers:  19,875,698">
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label id="channel_attr" text="Creation date and time: 2024/07/08  01:41">
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label id="channel_attr" text="Description:">
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label id="desc" text="your description here your description here your description here your description here your description here your description here your description here your description here your description here " wrapText="true" />
+                           </children>
+                        </VBox>
+                        <Label id="edit_channel" layoutX="82.0" layoutY="362.0" text="Edit channel" />
+                        <SVGPath id="edit_icon" content="M165,116l9,9l-6.9,6.9l-9-9L165,116z M132,158h9l21.9-21.9l-9-9L132,149V158z M165,167h-32.5c-0.1,0-0.2,0-0.2,0 c-0.1,0-0.2,0-0.3,0H123v-42h20.5l6-6H123c-3.3,0-6,2.7-6,6v42c0,3.3,2.7,6,6,6h42c3.3,0,6-2.7,6-6v-26l-6,6V167z" layoutX="-93.0" layoutY="238.0" scaleX="0.6" scaleY="0.6" scaleZ="0.8" strokeWidth="0.0" />
+                        <VBox layoutX="37.0" layoutY="421.0" prefHeight="212.0" prefWidth="472.0">
+                           <children>
+                              <Label id="edit_labels" text="Change profile" />
+                              <Label id="edit_labels" text="Change name">
+                                 <VBox.margin>
+                                    <Insets top="8.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <TextField promptText="Enter new name">
+                                 <VBox.margin>
+                                    <Insets top="6.0" />
+                                 </VBox.margin>
+                              </TextField>
+                              <Label id="edit_labels" text="Change description">
+                                 <VBox.margin>
+                                    <Insets top="12.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <TextField promptText="Enter new description">
+                                 <VBox.margin>
+                                    <Insets top="6.0" />
+                                 </VBox.margin>
+                              </TextField>
+                           </children>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" layoutX="534.0" layoutY="421.0" prefHeight="212.0">
+                           <children>
+                              <Button id="edit_btn" mnemonicParsing="false" prefWidth="158.4" text="Choose new profile">
+                                 <VBox.margin>
+                                    <Insets top="6.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Button id="edit_btn" mnemonicParsing="false" prefHeight="41.0" prefWidth="158.4" text="Change name">
+                                 <VBox.margin>
+                                    <Insets top="36.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Button id="edit_btn" mnemonicParsing="false" text="Change description">
+                                 <VBox.margin>
+                                    <Insets top="50.0" />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab id="upload_tab" text="              ">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label id="upload_video_head" layoutX="26.0" layoutY="24.0" text="Upload video" />
+                        <VBox layoutX="26.0" layoutY="104.0" prefHeight="511.0" prefWidth="447.0">
+                           <children>
+                              <Label id="upload_labels" text="Title">
+                                 <VBox.margin>
+                                    <Insets bottom="7.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <TextField fx:id="title_filed" promptText="Enter video's title">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                              </TextField>
+                              <Label id="upload_labels" text="Description">
+                                 <VBox.margin>
+                                    <Insets bottom="7.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <TextField fx:id="title_description" promptText="Enter description's title">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                              </TextField>
+                              <Label id="upload_labels" text="Category">
+                                 <VBox.margin>
+                                    <Insets bottom="7.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <ChoiceBox fx:id="category_box" prefHeight="40.0" prefWidth="194.0">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                              </ChoiceBox>
+                              <Label id="upload_labels" text="Choose video">
+                                 <VBox.margin>
+                                    <Insets bottom="7.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Button id="up_tab_btn" mnemonicParsing="false" onAction="#chooseVideo" text="Choose video">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Label id="upload_labels" text="Choose thumbnail">
+                                 <VBox.margin>
+                                    <Insets bottom="7.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Button id="up_tab_btn" mnemonicParsing="false" onAction="#chooseThumbnail" text="Choose thumbnail" />
+                           </children>
+                        </VBox>
+                        <Label id="preview_label" layoutX="580.0" layoutY="39.0" text="Preview" />
+                        <Label id="preview_title_label" layoutX="581.0" layoutY="422.0" text="Title" />
+                        <Label id="preview_desc_label" alignment="TOP_LEFT" layoutX="581.0" layoutY="468.0" prefHeight="88.0" prefWidth="556.0" text="your description here your description here your description here your description here your description here your description here your description here your description here your description here " wrapText="true" />
+                        <Label layoutX="1072.0" layoutY="362.0" text="Label" />
+                        <Rectangle fx:id="preview_thumbnail" arcHeight="20.0" arcWidth="20.0" fill="#272727" height="315.0" layoutX="581.0" layoutY="84.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="560.0" />
+                        <Label id="preview_duration" layoutX="1029.0" layoutY="350.0" text="00:00:00" />
+                        <Button id="upload_video_btn" disable="true" layoutX="825.0" layoutY="574.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="71.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab id="playlist_tab" text="              ">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane hbarPolicy="NEVER" layoutX="8.0" layoutY="13.0" prefHeight="636.0" prefWidth="783.0">
+                           <content>
+                              <VBox prefHeight="781.0" prefWidth="729.0">
+                                 <children>
+                                    <HBox prefHeight="194.56" prefWidth="1247.0">
+                                       <children>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                          </BorderPane>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="194.56" prefWidth="1247.0">
+                                       <children>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                          </BorderPane>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="194.56" prefWidth="1247.0">
+                                       <children>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                          </BorderPane>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="194.56" prefWidth="1247.0">
+                                       <children>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                          </BorderPane>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="194.56" prefWidth="1247.0">
+                                       <children>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="194.56" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="playlist_video_count" layoutX="156.0" layoutY="108.0" text="154 Videos" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="59.52" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="56.0" prefWidth="240.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                          </BorderPane>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </content>
+                        </ScrollPane>
+                        <HBox alignment="CENTER" layoutX="1104.0" layoutY="27.0">
+                           <children>
+                              <Button id="add_playlist" mnemonicParsing="false" />
+                              <Button id="remove_playlist" mnemonicParsing="false">
+                                 <HBox.margin>
+                                    <Insets bottom="7.0" left="50.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <Separator layoutX="800.0" layoutY="68.0" prefHeight="12.0" prefWidth="410.0" />
+                        <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#272727" height="210.9375" layoutX="815.0" layoutY="107.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="375.0" />
+                        <Label id="preview_playlist_name" alignment="TOP_LEFT" layoutX="815.0" layoutY="344.0" prefWidth="378.0" text="Playlist name" wrapText="true" />
+                        <HBox layoutX="874.0" layoutY="566.0">
+                           <children>
+                              <Button id="edit_playlist_btn" mnemonicParsing="false" text="Edit playlist">
+                                 <HBox.margin>
+                                    <Insets right="30.0" />
+                                 </HBox.margin>
+                              </Button>
+                              <Button id="edit_playlist_btn" mnemonicParsing="false" text="Open playlist" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab id="videos_tab" text="               ">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane layoutX="12.0" layoutY="15.0" prefHeight="658.0" prefWidth="773.0">
+                           <content>
+                              <VBox prefHeight="230.0">
+                                 <children>
+                                    <HBox>
+                                       <children>
+                                          <BorderPane prefHeight="50.0" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="video_duration" layoutX="165.0" layoutY="107.0" text="00:00:00" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="72.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="40.0" prefWidth="279.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label id="video-view-date" text="5.2M views • 11/5/20223 1:53" />
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="50.0" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="video_duration" layoutX="165.0" layoutY="107.0" text="00:00:00" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="72.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="40.0" prefWidth="279.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label id="video-view-date" text="5.2M views • 11/5/20223 1:53" />
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="50.0" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="video_duration" layoutX="165.0" layoutY="107.0" text="00:00:00" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="72.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="40.0" prefWidth="279.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label id="video-view-date" text="5.2M views • 11/5/20223 1:53" />
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                          </BorderPane>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox>
+                                       <children>
+                                          <BorderPane prefHeight="50.0" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="video_duration" layoutX="165.0" layoutY="107.0" text="00:00:00" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="72.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="40.0" prefWidth="279.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label id="video-view-date" text="5.2M views • 11/5/20223 1:53" />
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="50.0" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="video_duration" layoutX="165.0" layoutY="107.0" text="00:00:00" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="72.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="40.0" prefWidth="279.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label id="video-view-date" text="5.2M views • 11/5/20223 1:53" />
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="50.0" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="video_duration" layoutX="165.0" layoutY="107.0" text="00:00:00" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="72.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="40.0" prefWidth="279.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label id="video-view-date" text="5.2M views • 11/5/20223 1:53" />
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                          </BorderPane>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox>
+                                       <children>
+                                          <BorderPane prefHeight="50.0" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="video_duration" layoutX="165.0" layoutY="107.0" text="00:00:00" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="72.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="40.0" prefWidth="279.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label id="video-view-date" text="5.2M views • 11/5/20223 1:53" />
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="50.0" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="video_duration" layoutX="165.0" layoutY="107.0" text="00:00:00" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="72.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="40.0" prefWidth="279.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label id="video-view-date" text="5.2M views • 11/5/20223 1:53" />
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="50.0" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="video_duration" layoutX="165.0" layoutY="107.0" text="00:00:00" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="72.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="40.0" prefWidth="279.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label id="video-view-date" text="5.2M views • 11/5/20223 1:53" />
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                          </BorderPane>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox>
+                                       <children>
+                                          <BorderPane prefHeight="50.0" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="video_duration" layoutX="165.0" layoutY="107.0" text="00:00:00" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="72.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="40.0" prefWidth="279.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label id="video-view-date" text="5.2M views • 11/5/20223 1:53" />
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="50.0" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="video_duration" layoutX="165.0" layoutY="107.0" text="00:00:00" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="72.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="40.0" prefWidth="279.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label id="video-view-date" text="5.2M views • 11/5/20223 1:53" />
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                             <HBox.margin>
+                                                <Insets right="13.0" />
+                                             </HBox.margin>
+                                          </BorderPane>
+                                          <BorderPane prefHeight="50.0" prefWidth="240.0">
+                                             <top>
+                                                <AnchorPane prefHeight="135.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="DODGERBLUE" height="135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />
+                                                      <Label id="video_duration" layoutX="165.0" layoutY="107.0" text="00:00:00" />
+                                                   </children>
+                                                </AnchorPane>
+                                             </top>
+                                             <bottom>
+                                                <VBox prefHeight="72.0" prefWidth="240.0" BorderPane.alignment="CENTER">
+                                                   <children>
+                                                      <Label id="video_title" prefHeight="40.0" prefWidth="279.0" text="Arcane Season 2 - Official Teaser Trailer" wrapText="true">
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label id="video-view-date" text="5.2M views • 11/5/20223 1:53" />
+                                                   </children>
+                                                </VBox>
+                                             </bottom>
+                                          </BorderPane>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </content>
+                        </ScrollPane>
+                        <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#272727" height="210.9375" layoutX="806.0" layoutY="48.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="375.0" />
+                        <VBox layoutX="806.0" layoutY="269.0" prefHeight="314.0" prefWidth="374.0">
+                           <children>
+                              <Label id="preview_playlist_name" alignment="TOP_LEFT" prefWidth="378.0" text="Title:" wrapText="true">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label id="preview_desc_label" text="Description:">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label id="preview_desc_label" text="Likes:">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label id="preview_desc_label" text="Dislikes" />
+                           </children>
+                        </VBox>
+                        <HBox layoutX="882.0" layoutY="606.0">
+                           <children>
+                              <Button id="edit_playlist_btn" mnemonicParsing="false" text="Edit video">
+                                 <HBox.margin>
+                                    <Insets right="30.0" />
+                                 </HBox.margin>
+                              </Button>
+                              <Button id="edit_playlist_btn" mnemonicParsing="false" text="Remove video" />
+                           </children>
+                        </HBox>
+                        <Button id="play_btn" layoutX="985.0" layoutY="140.0" mnemonicParsing="false" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </center>
+</BorderPane>
