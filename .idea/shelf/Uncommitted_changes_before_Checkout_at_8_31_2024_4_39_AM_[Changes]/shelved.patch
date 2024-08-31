@@ -1,0 +1,286 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0067f4cc-4e96-4c51-b63e-50e1d1b74cf8\" name=\"Changes\" comment=\"module-info.java completed\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n        <option value=\"module-info\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2lPpQGD8XPT32N01D5hfSSDb3IZ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"develop\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62\" />\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0067f4cc-4e96-4c51-b63e-50e1d1b74cf8\" name=\"Changes\" comment=\"\" />\r\n      <created>1725091551429</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1725091551429</updated>\r\n      <workItem from=\"1725091552577\" duration=\"3042000\" />\r\n      <workItem from=\"1725094612412\" duration=\"1694000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00048\" summary=\"EditChannelPlayList class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095263417</created>\r\n      <option name=\"number\" value=\"00048\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00048\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095263417</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00049\" summary=\"EditProfile class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095273642</created>\r\n      <option name=\"number\" value=\"00049\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00049\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095273642</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00050\" summary=\"EditUserPlaylist class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095284022</created>\r\n      <option name=\"number\" value=\"00050\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00050\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095284023</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00051\" summary=\"EditVideo class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095295063</created>\r\n      <option name=\"number\" value=\"00051\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00051\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095295063</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00052\" summary=\"EnableNotif class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095310076</created>\r\n      <option name=\"number\" value=\"00052\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00052\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095310076</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00053\" summary=\"GetChannel class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095322512</created>\r\n      <option name=\"number\" value=\"00053\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00053\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095322512</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00054\" summary=\"GetChannelPlayLists class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095334862</created>\r\n      <option name=\"number\" value=\"00054\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00054\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095334862</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00055\" summary=\"GetChannelPlayListsVideos class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095356014</created>\r\n      <option name=\"number\" value=\"00055\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00055\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095356014</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00056\" summary=\"GetComments class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095369607</created>\r\n      <option name=\"number\" value=\"00056\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00056\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095369607</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00057\" summary=\"GetHistory class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095388878</created>\r\n      <option name=\"number\" value=\"00057\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00057\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095388878</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00058\" summary=\"GetLikedVideos class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095400534</created>\r\n      <option name=\"number\" value=\"00058\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00058\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095400534</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00059\" summary=\"GetNotifications class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095411879</created>\r\n      <option name=\"number\" value=\"00059\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00059\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095411879</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00060\" summary=\"GetPopularChannels class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095424095</created>\r\n      <option name=\"number\" value=\"00060\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00060\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095424095</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00061\" summary=\"GetProfile class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095447828</created>\r\n      <option name=\"number\" value=\"00061\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00061\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095447828</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00062\" summary=\"GetRecommendedVideos class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095457624</created>\r\n      <option name=\"number\" value=\"00062\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00062\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095457624</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00063\" summary=\"GetSubscriptions class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095470510</created>\r\n      <option name=\"number\" value=\"00063\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00063\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095470511</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00064\" summary=\"GetUserPlaylist class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095482749</created>\r\n      <option name=\"number\" value=\"00064\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00064\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095482749</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00065\" summary=\"GetVideo class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095495396</created>\r\n      <option name=\"number\" value=\"00065\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00065\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095495396</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00066\" summary=\"GetVideoAttributes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095502874</created>\r\n      <option name=\"number\" value=\"00066\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00066\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095502874</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00067\" summary=\"GetYouTubeMix class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095512939</created>\r\n      <option name=\"number\" value=\"00067\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00067\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095512939</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00068\" summary=\"HistoryRes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095528292</created>\r\n      <option name=\"number\" value=\"00068\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00068\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095528292</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00069\" summary=\"LikedVideosRes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095537170</created>\r\n      <option name=\"number\" value=\"00069\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00069\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095537170</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00070\" summary=\"Login class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095545690</created>\r\n      <option name=\"number\" value=\"00070\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00070\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095545690</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00071\" summary=\"NotificationRes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095556472</created>\r\n      <option name=\"number\" value=\"00071\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00071\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095556472</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00072\" summary=\"PlayListRes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095567595</created>\r\n      <option name=\"number\" value=\"00072\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00072\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095567595</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00073\" summary=\"PlayListsVideosRes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095578125</created>\r\n      <option name=\"number\" value=\"00073\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00073\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095578125</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00074\" summary=\"ProfileRes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095588362</created>\r\n      <option name=\"number\" value=\"00074\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00074\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095588362</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00075\" summary=\"RecommendedVideosRes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095601504</created>\r\n      <option name=\"number\" value=\"00075\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00075\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095601504</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00076\" summary=\"RemoveVideoFromChannelPlaylist class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095613767</created>\r\n      <option name=\"number\" value=\"00076\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00076\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095613767</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00077\" summary=\"RemoveVideoFromUserPlaylistPlaylist class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095630352</created>\r\n      <option name=\"number\" value=\"00077\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00077\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095630352</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00078\" summary=\"SearchChannel class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095648916</created>\r\n      <option name=\"number\" value=\"00078\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00078\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095648917</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00079\" summary=\"SearchVideo class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095658791</created>\r\n      <option name=\"number\" value=\"00079\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00079\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095658791</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00080\" summary=\"SendNotif class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095672687</created>\r\n      <option name=\"number\" value=\"00080\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00080\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095672687</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00081\" summary=\"Server class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095682704</created>\r\n      <option name=\"number\" value=\"00081\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00081\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095682704</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00082\" summary=\"SetNotificationsAsSeen class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095699432</created>\r\n      <option name=\"number\" value=\"00082\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00082\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095699432</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00083\" summary=\"SingUp class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095728358</created>\r\n      <option name=\"number\" value=\"00083\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00083\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095728358</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00084\" summary=\"SubscribeChannel class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095748128</created>\r\n      <option name=\"number\" value=\"00084\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00084\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095748128</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00085\" summary=\"SubscriptionsRes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095768433</created>\r\n      <option name=\"number\" value=\"00085\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00085\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095768433</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00086\" summary=\"Trending class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095780419</created>\r\n      <option name=\"number\" value=\"00086\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00086\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095780419</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00087\" summary=\"TrendingRes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095789857</created>\r\n      <option name=\"number\" value=\"00087\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00087\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095789857</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00088\" summary=\"UnsubscribeChannel class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095852716</created>\r\n      <option name=\"number\" value=\"00088\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00088\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095852716</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00089\" summary=\"UploadVideo class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095863508</created>\r\n      <option name=\"number\" value=\"00089\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00089\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095863508</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00090\" summary=\"VideoAttributesRes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095875628</created>\r\n      <option name=\"number\" value=\"00090\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00090\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095875628</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00091\" summary=\"VideoRes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095919696</created>\r\n      <option name=\"number\" value=\"00091\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00091\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095919696</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00092\" summary=\"VideoSearchRes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095930341</created>\r\n      <option name=\"number\" value=\"00092\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00092\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095930341</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00093\" summary=\"YouTubeMixRes class completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095942980</created>\r\n      <option name=\"number\" value=\"00093\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00093\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095942980</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00094\" summary=\"Request interface completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095979332</created>\r\n      <option name=\"number\" value=\"00094\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00094\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095979332</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00095\" summary=\"Response interface completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725095990387</created>\r\n      <option name=\"number\" value=\"00095\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00095\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725095990387</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00096\" summary=\"module-info.java completed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725096180205</created>\r\n      <option name=\"number\" value=\"00096\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00096\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725096180205</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"97\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"PlayListRes class completed\" />\r\n    <MESSAGE value=\"PlayListsVideosRes class completed\" />\r\n    <MESSAGE value=\"ProfileRes class completed\" />\r\n    <MESSAGE value=\"RecommendedVideosRes class completed\" />\r\n    <MESSAGE value=\"RemoveVideoFromChannelPlaylist class completed\" />\r\n    <MESSAGE value=\"RemoveVideoFromUserPlaylistPlaylist class completed\" />\r\n    <MESSAGE value=\"SearchChannel class completed\" />\r\n    <MESSAGE value=\"SearchVideo class completed\" />\r\n    <MESSAGE value=\"SendNotif class completed\" />\r\n    <MESSAGE value=\"Server class completed\" />\r\n    <MESSAGE value=\"SetNotificationsAsSeen class completed\" />\r\n    <MESSAGE value=\"SingUp class completed\" />\r\n    <MESSAGE value=\"SubscribeChannel class completed\" />\r\n    <MESSAGE value=\"SubscriptionsRes class completed\" />\r\n    <MESSAGE value=\"Trending class completed\" />\r\n    <MESSAGE value=\"TrendingRes class completed\" />\r\n    <MESSAGE value=\"UnsubscribeChannel class completed\" />\r\n    <MESSAGE value=\"UploadVideo class completed\" />\r\n    <MESSAGE value=\"VideoAttributesRes class completed\" />\r\n    <MESSAGE value=\"VideoRes class completed\" />\r\n    <MESSAGE value=\"VideoSearchRes class completed\" />\r\n    <MESSAGE value=\"YouTubeMixRes class completed\" />\r\n    <MESSAGE value=\"Request interface completed\" />\r\n    <MESSAGE value=\"Response interface completed\" />\r\n    <MESSAGE value=\"module-info.java completed\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"module-info.java completed\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 8d813d1fcbf6a79f8477e6d6505d349fbb2c3506)
++++ b/.idea/workspace.xml	(date 1725097688244)
+@@ -4,7 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="0067f4cc-4e96-4c51-b63e-50e1d1b74cf8" name="Changes" comment="module-info.java completed" />
++    <list default="true" id="0067f4cc-4e96-4c51-b63e-50e1d1b74cf8" name="Changes" comment="ReadMe completed" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -37,21 +37,21 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_ADD_EXTERNAL_FILES": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "develop",
+-    "kotlin-language-version-configured": "true",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -70,94 +70,7 @@
+       <updated>1725091551429</updated>
+       <workItem from="1725091552577" duration="3042000" />
+       <workItem from="1725094612412" duration="1694000" />
+-    </task>
+-    <task id="LOCAL-00048" summary="EditChannelPlayList class completed">
+-      <option name="closed" value="true" />
+-      <created>1725095263417</created>
+-      <option name="number" value="00048" />
+-      <option name="presentableId" value="LOCAL-00048" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1725095263417</updated>
+-    </task>
+-    <task id="LOCAL-00049" summary="EditProfile class completed">
+-      <option name="closed" value="true" />
+-      <created>1725095273642</created>
+-      <option name="number" value="00049" />
+-      <option name="presentableId" value="LOCAL-00049" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1725095273642</updated>
+-    </task>
+-    <task id="LOCAL-00050" summary="EditUserPlaylist class completed">
+-      <option name="closed" value="true" />
+-      <created>1725095284022</created>
+-      <option name="number" value="00050" />
+-      <option name="presentableId" value="LOCAL-00050" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1725095284023</updated>
+-    </task>
+-    <task id="LOCAL-00051" summary="EditVideo class completed">
+-      <option name="closed" value="true" />
+-      <created>1725095295063</created>
+-      <option name="number" value="00051" />
+-      <option name="presentableId" value="LOCAL-00051" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1725095295063</updated>
+-    </task>
+-    <task id="LOCAL-00052" summary="EnableNotif class completed">
+-      <option name="closed" value="true" />
+-      <created>1725095310076</created>
+-      <option name="number" value="00052" />
+-      <option name="presentableId" value="LOCAL-00052" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1725095310076</updated>
+-    </task>
+-    <task id="LOCAL-00053" summary="GetChannel class completed">
+-      <option name="closed" value="true" />
+-      <created>1725095322512</created>
+-      <option name="number" value="00053" />
+-      <option name="presentableId" value="LOCAL-00053" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1725095322512</updated>
+-    </task>
+-    <task id="LOCAL-00054" summary="GetChannelPlayLists class completed">
+-      <option name="closed" value="true" />
+-      <created>1725095334862</created>
+-      <option name="number" value="00054" />
+-      <option name="presentableId" value="LOCAL-00054" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1725095334862</updated>
+-    </task>
+-    <task id="LOCAL-00055" summary="GetChannelPlayListsVideos class completed">
+-      <option name="closed" value="true" />
+-      <created>1725095356014</created>
+-      <option name="number" value="00055" />
+-      <option name="presentableId" value="LOCAL-00055" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1725095356014</updated>
+-    </task>
+-    <task id="LOCAL-00056" summary="GetComments class completed">
+-      <option name="closed" value="true" />
+-      <created>1725095369607</created>
+-      <option name="number" value="00056" />
+-      <option name="presentableId" value="LOCAL-00056" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1725095369607</updated>
+-    </task>
+-    <task id="LOCAL-00057" summary="GetHistory class completed">
+-      <option name="closed" value="true" />
+-      <created>1725095388878</created>
+-      <option name="number" value="00057" />
+-      <option name="presentableId" value="LOCAL-00057" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1725095388878</updated>
+-    </task>
+-    <task id="LOCAL-00058" summary="GetLikedVideos class completed">
+-      <option name="closed" value="true" />
+-      <created>1725095400534</created>
+-      <option name="number" value="00058" />
+-      <option name="presentableId" value="LOCAL-00058" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1725095400534</updated>
++      <workItem from="1725096634091" duration="1046000" />
+     </task>
+     <task id="LOCAL-00059" summary="GetNotifications class completed">
+       <option name="closed" value="true" />
+@@ -463,7 +376,95 @@
+       <option name="project" value="LOCAL" />
+       <updated>1725096180205</updated>
+     </task>
+-    <option name="localTasksCounter" value="97" />
++    <task id="LOCAL-00097" summary="channel-page completed">
++      <option name="closed" value="true" />
++      <created>1725096670196</created>
++      <option name="number" value="00097" />
++      <option name="presentableId" value="LOCAL-00097" />
++      <option name="project" value="LOCAL" />
++      <updated>1725096670196</updated>
++    </task>
++    <task id="LOCAL-00098" summary="dashboard-page completed">
++      <option name="closed" value="true" />
++      <created>1725096690286</created>
++      <option name="number" value="00098" />
++      <option name="presentableId" value="LOCAL-00098" />
++      <option name="project" value="LOCAL" />
++      <updated>1725096690286</updated>
++    </task>
++    <task id="LOCAL-00099" summary="hello-view completed">
++      <option name="closed" value="true" />
++      <created>1725096708829</created>
++      <option name="number" value="00099" />
++      <option name="presentableId" value="LOCAL-00099" />
++      <option name="project" value="LOCAL" />
++      <updated>1725096708829</updated>
++    </task>
++    <task id="LOCAL-00100" summary="login page completed">
++      <option name="closed" value="true" />
++      <created>1725096730239</created>
++      <option name="number" value="00100" />
++      <option name="presentableId" value="LOCAL-00100" />
++      <option name="project" value="LOCAL" />
++      <updated>1725096730239</updated>
++    </task>
++    <task id="LOCAL-00101" summary="main page completed">
++      <option name="closed" value="true" />
++      <created>1725096743216</created>
++      <option name="number" value="00101" />
++      <option name="presentableId" value="LOCAL-00101" />
++      <option name="project" value="LOCAL" />
++      <updated>1725096743216</updated>
++    </task>
++    <task id="LOCAL-00102" summary="profile page completed">
++      <option name="closed" value="true" />
++      <created>1725096756323</created>
++      <option name="number" value="00102" />
++      <option name="presentableId" value="LOCAL-00102" />
++      <option name="project" value="LOCAL" />
++      <updated>1725096756323</updated>
++    </task>
++    <task id="LOCAL-00103" summary="search page completed">
++      <option name="closed" value="true" />
++      <created>1725096777584</created>
++      <option name="number" value="00103" />
++      <option name="presentableId" value="LOCAL-00103" />
++      <option name="project" value="LOCAL" />
++      <updated>1725096777584</updated>
++    </task>
++    <task id="LOCAL-00104" summary="signup page completed">
++      <option name="closed" value="true" />
++      <created>1725096800429</created>
++      <option name="number" value="00104" />
++      <option name="presentableId" value="LOCAL-00104" />
++      <option name="project" value="LOCAL" />
++      <updated>1725096800429</updated>
++    </task>
++    <task id="LOCAL-00105" summary="sub page completed">
++      <option name="closed" value="true" />
++      <created>1725096810550</created>
++      <option name="number" value="00105" />
++      <option name="presentableId" value="LOCAL-00105" />
++      <option name="project" value="LOCAL" />
++      <updated>1725096810550</updated>
++    </task>
++    <task id="LOCAL-00106" summary="video page completed">
++      <option name="closed" value="true" />
++      <created>1725096818937</created>
++      <option name="number" value="00106" />
++      <option name="presentableId" value="LOCAL-00106" />
++      <option name="project" value="LOCAL" />
++      <updated>1725096818937</updated>
++    </task>
++    <task id="LOCAL-00107" summary="ReadMe completed">
++      <option name="closed" value="true" />
++      <created>1725097051364</created>
++      <option name="number" value="00107" />
++      <option name="presentableId" value="LOCAL-00107" />
++      <option name="project" value="LOCAL" />
++      <updated>1725097051365</updated>
++    </task>
++    <option name="localTasksCounter" value="108" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -471,17 +472,6 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+-    <MESSAGE value="PlayListRes class completed" />
+-    <MESSAGE value="PlayListsVideosRes class completed" />
+-    <MESSAGE value="ProfileRes class completed" />
+-    <MESSAGE value="RecommendedVideosRes class completed" />
+-    <MESSAGE value="RemoveVideoFromChannelPlaylist class completed" />
+-    <MESSAGE value="RemoveVideoFromUserPlaylistPlaylist class completed" />
+-    <MESSAGE value="SearchChannel class completed" />
+-    <MESSAGE value="SearchVideo class completed" />
+-    <MESSAGE value="SendNotif class completed" />
+-    <MESSAGE value="Server class completed" />
+-    <MESSAGE value="SetNotificationsAsSeen class completed" />
+     <MESSAGE value="SingUp class completed" />
+     <MESSAGE value="SubscribeChannel class completed" />
+     <MESSAGE value="SubscriptionsRes class completed" />
+@@ -496,6 +486,17 @@
+     <MESSAGE value="Request interface completed" />
+     <MESSAGE value="Response interface completed" />
+     <MESSAGE value="module-info.java completed" />
+-    <option name="LAST_COMMIT_MESSAGE" value="module-info.java completed" />
++    <MESSAGE value="channel-page completed" />
++    <MESSAGE value="dashboard-page completed" />
++    <MESSAGE value="hello-view completed" />
++    <MESSAGE value="login page completed" />
++    <MESSAGE value="main page completed" />
++    <MESSAGE value="profile page completed" />
++    <MESSAGE value="search page completed" />
++    <MESSAGE value="signup page completed" />
++    <MESSAGE value="sub page completed" />
++    <MESSAGE value="video page completed" />
++    <MESSAGE value="ReadMe completed" />
++    <option name="LAST_COMMIT_MESSAGE" value="ReadMe completed" />
+   </component>
+ </project>
+\ No newline at end of file
